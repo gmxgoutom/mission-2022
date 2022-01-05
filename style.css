@@ -4,23 +4,25 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
 }
 
 .hero{
     display: flex;
     background-image: url(images/bg/hero-bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
 
 .first-mission{
-    color:red;
+    color: #f1227b;
 }
 .hero-txt{
+    align-content: center;
     width: 50%;
-    padding: 10% 2% 2% 10%;
+    padding: 5% 2% 2% 10%;
 }
 .hero-img{
     width: 50%;    
@@ -34,7 +36,7 @@ h1{
 }
 p{
     text-align: left
-    width: 70%;
+    width: 50%;
 }
 .hire-me-btn{
     margin-top: 50px;
@@ -46,5 +48,5 @@ p{
     border-radius: 20px;
 }
 h5{
-    padding-top: 10px;
+    padding-top: 20px;
 }
