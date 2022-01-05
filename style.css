@@ -1,0 +1,15 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+}
+
+.first-mission{
+    color: orange;
+}
