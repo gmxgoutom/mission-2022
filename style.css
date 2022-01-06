@@ -68,6 +68,7 @@ h3{
     padding: 10px 40px;
     background-color: papayawhip;
     border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .card-blue{
     background-color: rgb(232, 252, 255);
