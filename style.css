@@ -1,7 +1,9 @@
 body{
+    width: 100%;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    justify-content: center;
 }
 h1{
     font-size: 60px;
@@ -16,7 +18,7 @@ h1{
     
 }
 
-.first-mission{
+span{
     color: #f1227b;
 }
 .hero-txt{
@@ -34,7 +36,8 @@ h1{
     padding-left: 5px;
     border-left: 5px solid red;
 }
-p{
+.hero-p{
+    padding-bottom: 30px;
     text-align: left
     width: 50%;
 }
@@ -47,6 +50,37 @@ p{
     padding: 10px 30px;
     border-radius: 20px;
 }
-h5{
+h3{
+    font-size: 16px;
     padding-top: 20px;
+}
+
+
+.card-container{
+    display: flex;
+    width: fit-content;
+    vertical-align: ;
+    
+}
+.card{
+    margin: 10px 20px;
+    padding: 10px 40px;
+    background-color: papayawhip;
+    border-radius: 20px;
+}
+.card-blue{
+    background-color: rgb(232, 252, 255);
+}
+.card-red{
+    background-color: rgb(255, 239, 239);
+}
+.card-yellow{
+    background-color: rgb(255, 247, 231);
+}
+.card img{
+    width: 50%;
+}
+
+.my-target{
+    text-align: center;
 }
